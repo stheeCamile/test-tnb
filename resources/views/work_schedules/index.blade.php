@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work Schedules</title>
+    <title>Horários de Trabalho</title>
 </head>
 <body>
-    <h1>Work Schedules</h1>
+    <h1>Horários de Trabalho</h1>
     @if(session('message'))
         <p>{{ session('message') }}</p>
     @endif
     <table>
         <thead>
             <tr>
-                <th>Employee Name</th>
-                <th>Start Time</th>
-                <th>End Time</th>
+                <th>Nome Funcionário</th>
+                <th>Hora de início</th>
+                <th>Hora Final</th>
             </tr>
         </thead>
         <tbody>
